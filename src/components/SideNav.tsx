@@ -67,7 +67,7 @@ const SideNav = () => {
 					</a>
 					<a
 						onClick={handleNav}
-						href="#main"
+						href="#resume"
 						className="
             w-[65%] flex justify-center items-center
             rounded-full shadow-lg bg-gray-100
@@ -123,7 +123,7 @@ const SideNav = () => {
 						<AiOutlineProject size={20} />
 					</a>
 					<a
-						href="#main"
+						href="#resume"
 						className="
             rounded-full shadow-lg bg-gray-100
             shadow-gray-400 m-2 p-4 cursor-pointer
