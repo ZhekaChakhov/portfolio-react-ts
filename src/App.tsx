@@ -1,9 +1,13 @@
-import { useState } from "react";
+import SideNav from "./components/SideNav";
 
 function App() {
-	const [count, setCount] = useState(0);
-
-	return <></>;
+	return (
+		<>
+			<div className="">
+				<SideNav />
+			</div>
+		</>
+	);
 }
 
 export default App;
