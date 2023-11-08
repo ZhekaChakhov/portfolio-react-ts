@@ -43,7 +43,7 @@ const SideNav = () => {
 					</a>
 					<a
 						onClick={handleNav}
-						href="#edu"
+						href="#exp"
 						className="
             w-[65%] flex justify-center items-center
             rounded-full shadow-lg bg-gray-100
@@ -51,7 +51,7 @@ const SideNav = () => {
             hover:scale-110 ease-in duration-200"
 					>
 						<GrProjects size={20} />
-						<span className="pl-4">Образование</span>
+						<span className="pl-4">Опыт</span>
 					</a>
 					<a
 						onClick={handleNav}
