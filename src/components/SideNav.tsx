@@ -105,7 +105,7 @@ const SideNav = () => {
 						<AiOutlineHome size={20} />
 					</a>
 					<a
-						href="#edu"
+						href="#exp"
 						className="
             rounded-full shadow-lg bg-gray-100
             shadow-gray-400 m-2 p-4 cursor-pointer
