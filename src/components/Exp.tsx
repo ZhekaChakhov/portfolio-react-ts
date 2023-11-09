@@ -12,21 +12,24 @@ const data: Data[] = [
 		year: 2019,
 		title: "СПбГУ",
 		duration: "4 года",
-		details: `A paragraph is a self-contained unit of discourse in writing dealing
-		with a particular point or idea. Though not required by the
-		orthographic conventions of any language with a writing system,
-		paragraphs are a conventional means of organizing extended segments
-		of prose.`,
+		details: `Направление: Прикладная математика, фундаментальная информатика и программирование,
+		бакалавриат, окончил в 2023 году.
+		За время обучения занимался разработкой
+		и поддержкой веб-приложений для университетских проектов.`,
 	},
 	{
 		year: 2023,
 		title: "ASTON",
 		duration: "6 месяцев",
-		details: `A paragraph is a self-contained unit of discourse in writing dealing
-		with a particular point or idea. Though not required by the
-		orthographic conventions of any language with a writing system,
-		paragraphs are a conventional means of organizing extended segments
-		of prose.`,
+		details: `Был на стажировке по вакансии "JavaSript Developer" в компании ASTON.
+		Компания занимается разработкой ПО на заказ, на рынке с 2007г.
+		За время стажировки проходил онлайн интенсивы по JavaScript и React,
+		по ходу интенсивов проводились промежуточные тестирования
+		с последующим отсеиванием кандидатов.
+		Затем последовал этап лаборатории,
+		где кандидаты в очном формате занимались проектной деятельностью.
+		По итогам стажировки выбрали другого кандидата.
+		`,
 	},
 ];
 
