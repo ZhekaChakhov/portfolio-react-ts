@@ -1,10 +1,5 @@
 import { useState } from "react";
-import {
-	AiOutlineMenu,
-	AiOutlineHome,
-	AiOutlineProject,
-	AiOutlineMail,
-} from "react-icons/ai";
+import { AiOutlineMenu, AiOutlineHome, AiOutlineProject } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
 import { GrProjects } from "react-icons/gr";
 
@@ -77,18 +72,6 @@ const SideNav = () => {
 						<BsPerson size={20} />
 						<span className="pl-4">Резюме</span>
 					</a>
-					<a
-						onClick={handleNav}
-						href="#contact"
-						className="
-            w-[65%] flex justify-center items-center
-            rounded-full shadow-lg bg-gray-100
-            shadow-gray-400 m-2 p-4 cursor-pointer
-            hover:scale-110 ease-in duration-200"
-					>
-						<AiOutlineMail size={20} />
-						<span className="pl-4">Контакты</span>
-					</a>
 				</div>
 			) : (
 				""
@@ -130,16 +113,6 @@ const SideNav = () => {
             hover:scale-110 ease-in duration-300"
 					>
 						<BsPerson size={20} />
-					</a>
-					<a
-						onClick={handleNav}
-						href="#contact"
-						className="
-            rounded-full shadow-lg bg-gray-100
-            shadow-gray-400 m-2 p-4 cursor-pointer
-            hover:scale-110 ease-in duration-300"
-					>
-						<AiOutlineMail size={20} />
 					</a>
 				</div>
 			</div>
