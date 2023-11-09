@@ -39,9 +39,9 @@ const data: Data[] = [
 	},
 	{
 		title: "Рик и Морти",
-		stack: "Nuxt.js, Pinia, axios, Tailwind CSS",
-		details: `Карточки с информацие о персонажах и эпизодах
-		сериала Рик и Морти с использованием The Rick and Morty API,`,
+		stack: "Nuxt, Pinia, axios, TailwindCSS",
+		details: `Карточки с информацией о персонажах и эпизодах
+		сериала Рик и Морти с использованием TheRickandMorty API,`,
 		link: "https://rick-and-morty-chakhov.vercel.app/",
 		gitHubLink: "https://github.com/ZhekaChakhov/RickandMorty",
 		img: "img/rickandmorty.png",

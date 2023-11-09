@@ -55,7 +55,7 @@ const ProjectItem = ({
 					</div>
 					<div className="flex space-x-2 items-center">
 						<FaServer />
-						<a href={link}>
+						<a href={link} target="_blank">
 							<p
 								className="
 								text-sm md:text-md lg:text-lg my-1 md:my-2
@@ -69,7 +69,7 @@ const ProjectItem = ({
 
 					<div className="flex space-x-2 items-center">
 						<FaGithub />
-						<a href={gitHubLink}>
+						<a href={gitHubLink} target="_blank">
 							<p
 								className="
 								text-sm md:text-md lg:text-lg my-1 md:my-2
